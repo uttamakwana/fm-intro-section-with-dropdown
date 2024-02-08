@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+   <div class="overlay"></div>
+    <header class="header">
+      <section class="header-container wrapper">
+        <h1>snap</h1>
+        <div class="menu">
+         <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <p
+                ><span>Features</span>
+                <img
+                  src="images/icon-arrow-down.svg"
+                  alt="icon-arrow-down"
+                  class="arrow-down" />
+                <img
+                  src="images/icon-arrow-up.svg"
+                  alt="icon-arrow-down"
+                  class="arrow-up"
+              /></p>
+              <div class="dropdown">
+                <p
+                  ><img src="images/icon-todo.svg" alt="icon-todo" /><span>Todo List</span></p
+                >
+                <p
+                  ><img
+                    src="images/icon-calendar.svg"
+                    alt="icon-todo"
+                  /><span>Calender</span></p
+                >
+                <p
+                  ><img
+                    src="images/icon-reminders.svg"
+                    alt="icon-todo"
+                  /><span>Reminders</span></p
+                >
+                <p
+                  ><img src="images/icon-planning.svg" alt="icon-todo" />
+                  <span>Planning</span></p
+                >
+              </div>
+            </li>
+            <li class="nav-list-item">
+              <p
+                ><span>
+                 Company
+                </span>
+                <img
+                  src="images/icon-arrow-down.svg"
+                  alt="arrow-down"
+                  class="c-arrow-down"
+              />
+             <img
+                  src="images/icon-arrow-up.svg"
+                  alt="arrow-down"
+                  class="c-arrow-up"
+              /></p>
+                </span>
+              <div class="c-dropdown">
+               <span>History</span>
+               <span>Our Team</span>
+               <span>Blog</span>
+              </div>
+            </li>
+            <li class="nav-list-item">Careers</li>
+            <li class="nav-list-item">About</li>
+          </ul>
+         </nav>
+         <button class="login-btn btn">Login</button>
+         <button class="register-btn btn">Register</button>
+         <div class="close-menu">
+         <img src="images/icon-close-menu.svg" alt="close-menu" class="close-menu-icon">
+         </div>
+        </div>
+        <img src="images/icon-menu.svg" alt="menu" class="menu-icon">
+      </section>
+     </header>
+    <section class="hero">
+      <div class="hero-section wrapper">
+        <div class="hero-left">
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button>Learn More</button>
+          <div class="hero-icons">
+            <img src="images/client-databiz.svg" alt="databiz" />
+            <img src="images/client-audiophile.svg" alt="databiz" />
+            <img src="images/client-meet.svg" alt="databiz" />
+            <img src="images/client-maker.svg" alt="databiz" />
+          </div>
+        </div>
+        <div class="hero-right">
+          <img
+            src="images/image-hero-desktop.png"
+            alt="desktop"
+            class="desktop-img"
+          />
+          <img
+            src="images/image-hero-mobile.png"
+            alt="mobile"
+            class="mobile-img"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
